@@ -1,0 +1,112 @@
+#invoice-POS{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 4mm;
+    margin: 0 auto;
+    width: 76mm;
+    background: #f31544;
+}
+
+::selection {
+    background: #f31544;
+    color: #fff;
+}
+
+::moz-selection {
+    background: #f31544;
+    color: #fff;
+}
+
+h1{
+    font-size: 1.5em;
+    color: #222;
+}
+
+h2{
+    font-size: 0.9em;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+p{
+    font-size: 0.7em;
+    color: #666;
+    line-height: 1.3em;
+}
+
+#top,
+#mid,
+#bot{
+    border-bottom: 1px solid #eee;
+}
+
+#top{
+    min-height: 100px;
+}
+
+#top .logo{
+    height: 60px;
+    width: 60px;
+    -o-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    border-radius: 20%;
+    background: url(https://i.pinimg.com/736x/24/fe/84/24fe84949cb5b716e5878a19e9034ddd.jpg)no-repeat;
+    background-size: 50px 50px;
+}
+
+.clientlogo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: url(https://i.pinimg.com/736x/24/fe/84/24fe84949cb5b716e5878a19e9034ddd.jpg)no-repeat;
+    background-size: 60px 60px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.info{
+    display: block;
+}
+
+.title{
+    float: right;
+    background: #521e1e;
+}
+
+.title p{
+    text-align: right;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabletitle{
+    font-size: 0.5em;
+    background: #eee;
+}
+
+.service{
+    border-bottom: 1px solid #eee;
+}
+
+.item{
+    width: 24mm;
+}
+
+.itemtext {
+    font-size: 0.5em;
+}
+#legalcopy{
+    margin-top: 5mm;
+}
+
