@@ -18,7 +18,10 @@ connectDb();
 const app = express();
 
 //App Middleware
-app.use(cors());
+app.use(cors({
+  origin: ["https://posmamba-app.vercel.app"],
+  credentials: true,
+}));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
